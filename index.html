@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Jogo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Olá Mundo Game Dev</h1>
+        <p>Desenvolvimento de Jogos Digitais para a Web</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Cadastro de Jogador</h2>
+            <form id="formulario">
+                
+                <div class="campo">
+                    <label for="nome">Nome / Nickname:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Mínimo 6 caracteres" required>
+                </div>
+
+                <div class="campo">
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade" min="1" max="120" placeholder="Sua idade">
+                </div>
+
+                <div class="campo">
+                    <label for="curso">Dificuldade Inicial:</label>
+                    <select id="curso" name="curso" required>
+                        <option value="">Selecione o modo</option>
+                        <option value="Fácil">Fácil</option>
+                        <option value="Médio">Médio</option>
+                        <option value="Difícil">Difícil</option>
+                    </select>
+                </div>
+
+                <div class="botoes">
+                    <button type="submit" class="btn-enviar">Iniciar Aventura</button>
+                    <button type="reset" class="btn-limpar">Limpar</button>
+                </div>
+            </form>
+
+            <div id="resultado"></div>
+        </section>
+
+        <section class="card">
+            <h2>Área do Jogo</h2>
+            <canvas id="game" width="800" height="400"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>Curso de Extensão GameDev - 2026</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

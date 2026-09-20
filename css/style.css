@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121214;
+    color: #e1e1e6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1a1e29;
+    padding: 25px;
+    border-bottom: 3px solid #00e88f;
+}
+
+header h1 {
+    color: #00e88f;
+    margin: 0 0 10px 0;
+}
+
+header p {
+    color: #a8a8b3;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #202024;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    flex: 1;
+    min-width: 320px;
+    max-width: 500px;
+}
+
+.card h2 {
+    color: #00e88f;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 14px;
+    color: #c4c4cc;
+}
+
+input, select {
+    padding: 10px;
+    background-color: #121214;
+    border: 1px solid #323238;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    outline: 2px solid #00e88f;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-enviar {
+    background-color: #00e88f;
+    color: #000;
+}
+
+.btn-enviar:hover {
+    background-color: #00c878;
+}
+
+.btn-limpar {
+    background-color: #323238;
+    color: #fff;
+}
+
+.btn-limpar:hover {
+    background-color: #41414d;
+}
+
+#resultado {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #121214;
+    border-radius: 6px;
+    text-align: left;
+}
+
+canvas {
+    background-color: #000000;
+    border: 2px solid #00e88f;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #1a1e29;
+    padding: 15px;
+    margin-top: 20px;
+    color: #7c7c8a;
+}
