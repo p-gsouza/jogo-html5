@@ -1,10 +1,10 @@
-# 🎮 GAMEDEV - Desenvolvimento de Games com HTML5, CSS3 e JavaScript
+# Projeto Gamedev Web
 
-> Projeto de Extensão focado no desenvolvimento de habilidades do futuro, letramento digital, inclusão e ação social por meio da criação de jogos digitais para a Web.
+> Este game está sendo realizado como parte de um projeto de extensão coordenado pelo professor Rodrigo Braga em parceria com a UNISUAM, cujo foco é construir um jogo web 2D totalmente simples sem utilizar engines como  C++, Java, Real, etc. Em suma, serão utilizados somente HTML, CSS e JavaScript para fazer as ações e métodos. 
 
 ---
 
-## 📑 Tabela de Conteúdos
+## Indice
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Objetivos](#-objetivos)
@@ -16,18 +16,16 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
-O **Projeto de Extensão: Desenvolvimento de Games** aborda os fundamentos do desenvolvimento de jogos digitais interativos para a Web. A iniciativa contempla desde a organização inicial de ambiente e código até a implementação de físicas de colisão, gerenciamento de áudio, renderização via Canvas e controle de entidades.
-
-Além do aprendizado técnico em desenvolvimento Web, o projeto promove o bem-estar, a criatividade e a cidadania digital.
+O projeto aborda os fundamentos do desenvolvimento de jogos digitais interativos para a Web. A iniciativa contempla desde a organização inicial do ambiente de programação e código até a implementação de físicas de colisão, gerenciamento de áudio, renderização via Canvas e controle de entidades.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 ### Objetivo Geral
-Desenvolver competências para planejar, estruturar e implementar jogos digitais para a Web utilizando **HTML5**, **CSS3** e **JavaScript moderno**, com ênfase no elemento `<canvas>`, animação por código, manipulação de sprites, interação do usuário, áudio e detecção de colisões.
+Desenvolver um jogo simples e bem feito colocando em prática conceitos de HTML5, CSS3 e JavaScript. Em intermédio, serão compreendidos conceitos de planejamento, estruturação e implementação para que o resultado final seja completo. 
 
 ### Objetivos Específicos
 - Compreender as etapas de criação e o ciclo de vida de um jogo digital.
@@ -42,7 +40,7 @@ Desenvolver competências para planejar, estruturar e implementar jogos digitais
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
 | Tecnologia | Finalidade |
 | :--- | :--- |
@@ -54,24 +52,9 @@ Desenvolver competências para planejar, estruturar e implementar jogos digitais
 
 ---
 
-## 📁 Estrutura do Projeto
-
-```text
-jogo_html/
-├── css/          # Arquivos de estilização (style.css)
-├── js/           # Scripts com a lógica do jogo (script.js)
-├── imagens/      # Sprites, spritesheets e elementos gráficos
-├── sons/         # Efeitos sonoros e trilha sonora
-├── index.html    # Ponto de entrada do jogo
-├── LICENSE       # Termos de licença do código
-└── README.md     # Documentação técnica do repositório
-```
-
----
-
 ## 📋 Cronograma de Desenvolvimento
 
-- [x] **Aula 1:** GameDev e preparação do ambiente *(Concluído)*
+- [x] **Aula 1:** Preparação do ambiente *(Concluído)*
 - [ ] **Aula 2:** Fundamentos do Canvas
 - [ ] **Aula 3:** Imagens e elementos gráficos
 - [ ] **Aula 4:** Game Loop e animação
@@ -81,20 +64,6 @@ jogo_html/
 - [ ] **Aula 8:** Colisões
 - [ ] **Aula 9:** Inimigos e dificuldade
 - [ ] **Aula 10:** Interface e regras
-
----
-
-## 🚀 Como Executar
-
-1. Clone este repositório para sua máquina local:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/jogo_html.git
-   ```
-2. Acesse o diretório do projeto:
-   ```bash
-   cd jogo_html
-   ```
-3. Abra o arquivo `index.html` em seu navegador ou utilize a extensão **Live Server** no VS Code.
 
 ---
 
